@@ -1,0 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+nav ul li{
+  display: inline;
+  text-decoration: none;
+  color: blue;
+}
