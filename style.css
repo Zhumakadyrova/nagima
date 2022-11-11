@@ -1,8 +1,29 @@
 *{
   box-sizing: border-box;
 }
-nav ul li{
-  display: inline;
-  text-decoration: none;
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
   color: blue;
+  background-color: black;
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: beige;
+  font-size: 25px;
+  margin: 15px 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+
+}
+.table-1{
+  padding-top: 10px;
+  text-align: center;
+}
+.table-1 tr td{
+
+  border: 3px solid brown;
+  margin: 20px 30px;
 }
