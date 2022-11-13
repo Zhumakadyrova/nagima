@@ -27,3 +27,14 @@ nav a {
   border: 3px solid brown;
   margin: 20px 30px;
 }
+.logo {
+  margin: 20px;
+  display: flex;
+  justify-content: right;
+  border-radius: 30px;
+  border: 3px solid blueviolet;
+}
+.logo:hover{
+border: 3px solid red;
+}
+
