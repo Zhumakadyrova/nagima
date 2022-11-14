@@ -91,3 +91,23 @@ a{
   margin-left: 20px;
   width: 400px;
 }
+#example-1{
+
+  background-color: aqua;
+  padding: 30px 25px;
+  border: none;
+  border-radius: 15px;
+  color:black;
+  font-weight: 800px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.474);
+  transition-property: transform, box-shadow, background-colour;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0;
+  }
+  #example-1:hover{
+    transform: scale(1.2) rotate(-10deg);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.559);
+    background-color: rgba(0, 255, 255, 0.366);
