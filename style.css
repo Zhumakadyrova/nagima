@@ -130,4 +130,23 @@ a{
   #example-2:hover{
     background-color: rgb(189, 135, 240);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.474);
+  } 
+  #example-3 {
+    background-color: pink;
+    border: 2px dashed yellow;
+    border-radius: 20px;
+    padding: 30px 50px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    box-shadow: 0 0 8px;
+    transition-property: transform, box-shadow, background-colour;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0;
+  }
+  #example-3:hover{
+    background-color: rgba(255, 192, 203, 0.581);
+    box-shadow: 0 0 15px;
+    text-decoration: underline;
   }
