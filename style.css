@@ -111,3 +111,23 @@ a{
     transform: scale(1.2) rotate(-10deg);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.559);
     background-color: rgba(0, 255, 255, 0.366);
+  }
+
+  #example-2{
+    background-color: rgb(162, 72, 247);
+    padding: 20px 30px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600px;
+    font-size: 20px;
+    margin: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.559);
+
+
+
+  }
+  #example-2:hover{
+    background-color: rgb(189, 135, 240);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.474);
+  }
